@@ -24,8 +24,9 @@ O referido web site, CiberLegacy, fez uso das seguintes ferramentas de desenvolv
 - **CSS**
 - **FIGMA (design/prototipação)**
 
-<img width="50" height="100" alt="js 1" src="https://github.com/user-attachments/assets/39fef9b6-68cb-4ccf-b519-fef9b6a1e885" />
-<img width="50" height="100" alt="html 1" src="https://github.com/user-attachments/assets/51589a8d-5fff-4cc8-93a7-5cf0e78e027b" />
-<img width="50" height="100" alt="css 1" src="https://github.com/user-attachments/assets/ed024940-67e4-4fb2-8de8-41a5a168707f" />
-<img width="50" height="100" alt="FIGMA 1" src="https://github.com/user-attachments/assets/40a6759d-bf8b-4f03-b67a-dea08800d9a2" />
-
+<div style="display: flex; gap: 10px;">
+  <img width="5%"  alt="js" src="https://github.com/user-attachments/assets/39fef9b6-68cb-4ccf-b519-fef9b6a1e885"/>
+  <img width="5%"  alt="html" src="https://github.com/user-attachments/assets/51589a8d-5fff-4cc8-93a7-5cf0e78e027b" />
+  <img width="5%"  alt="css" src="https://github.com/user-attachments/assets/ed024940-67e4-4fb2-8de8-41a5a168707f" />
+  <img width="5%"  alt="FIGMA" src="https://github.com/user-attachments/assets/40a6759d-bf8b-4f03-b67a-dea08800d9a2" />
+</div>
