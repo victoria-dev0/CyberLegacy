@@ -6,8 +6,19 @@ Nesse contexto, desenvolvemos um site para explicar de forma dinâmica e intuiti
 ## Protótipo
 
 ## Telas
+- Início
+<img width="500" height="300" alt="INICIO" src="https://github.com/user-attachments/assets/083c06c7-89eb-413f-98c3-05b885f7a30b" />
 
+- O que é perícia?
+<img width="500" height="600" alt="O que é perícia 2" src="https://github.com/user-attachments/assets/48f1dffa-b530-4e93-a4db-578d0ebc7786" />
 
+- Dossiê
+<img width="500" height="1000" alt="DOSSIÊ" src="https://github.com/user-attachments/assets/2e4b1d16-b89a-4312-b053-8a16d1c4b7a5" />
+
+- Como se proteger?
+<img width="500" height="600" alt="COMO SE PROTEGER" src="https://github.com/user-attachments/assets/dfe8ffb9-9f71-4a0b-aa38-49174d6b54ee" />
+
+  
 ## Time de Desenvolvimento
 - Alice Ripardo Mauri 
 - Hebert Gabriel Farias Brás
