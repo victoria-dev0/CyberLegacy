@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+/* ---SEÇÃO INICIAL--- */
+.inicio {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../images/background.png');
+    background-size: cover;
+    background-position: center;
+}
+.cta{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cta h1 {
+    font-family: "Prosto One", sans-serif;
+    font-weight: 400;    
+    font-size: 5rem;
+    letter-spacing: 18px;
+    background: linear-gradient(#880202, #ff0000, #800303);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+.cta h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.scroll_indicator {
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.scroll_icon img{
+    width: 32px;
+    height: 32px;
+    margin-bottom: 8px;
+}
+
+
+.cta p{
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    color: rgb(170, 169, 169);
+    text-align: start;
+}
+
+@media screen and (max-width: 1024px) {
+    .cta h1 {
+        font-size: clamp(2.2rem, 8vw, 4rem);
+        letter-spacing: clamp(3px, 1.2vw, 10px);
+    }
+
+    .cta h2 {
+        font-size: clamp(1.1rem, 3.5vw, 1.5rem);
+        margin-bottom: 28px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .home {
+        min-height: calc(100vh - 72px);
+        padding: 0 16px;
+    }
+
+    .scroll_indicator {
+        bottom: 14px;
+        gap: 6px;
+    }
+
+    .cta p {
+        font-size: 0.8rem;
+    }
+}

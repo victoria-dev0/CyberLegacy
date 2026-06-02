@@ -1,0 +1,295 @@
+
+/* ---SEÇÃO O QUE É PERÍCIA--- */
+.pericia{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: clamp(20px, 4vw, 45px);
+    position: relative;
+
+    background: linear-gradient(117deg, #000 0%, #0B0202 58.17%, #1B0505 100%);
+}
+
+.pericia_hero{
+    width: min(100%, 980px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:start;
+    text-align: left; 
+    margin: clamp(36px, 8vw, 100px) 0 clamp(24px, 5vw, 50px) 0;
+    position: relative;
+}
+.title_container{
+    width: 100%;
+    position:relative;
+    margin-bottom: clamp(24px, 5vw, 60px);
+}
+
+.title_pericia {
+    font-family: 'Georgia', serif;
+    font-size: clamp(2rem, 5.5vw, 3.5rem);
+    font-weight: 300;
+    line-height: 1.1;
+    letter-spacing: clamp(2px, 1vw, 10px);
+    
+}
+
+.title_pericia span {
+    background: linear-gradient(#ff0000,#c20b0b, #630303, #6e0202);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.line_right{
+    position:absolute;
+
+    width:100px;
+    height:80px;
+
+    border-top:4px solid rgb(130, 2, 2);
+    border-right:4px solid rgb(130, 2, 2);
+
+    top: -2.25rem;
+    left: clamp(8rem, 22vw, 18rem);
+}
+
+.line_left{
+    position:absolute;
+
+    width: 100px;
+    height:80px;
+
+    border-left:4px solid rgb(130, 2, 2);
+    border-bottom:4px solid rgb(130, 2, 2);
+
+    top: clamp(5rem, 12vw, 8rem);
+    left: -1.5rem;
+}
+
+.pericia_hero p{
+    font-size: clamp(1rem, 2.4vw, 1.8rem);
+    line-height: 1.5;
+    color: #CFCFCF;
+    margin-top: clamp(18px, 4vw, 60px);
+}
+
+.fingerprint_1 {
+    width: auto;
+    position: absolute;
+    left: -6.25rem;
+    top: -3.75rem;
+    z-index: 1;
+}
+
+.fingerprint_2 {
+    width: clamp(340px, 35vw, 700px);
+    position:absolute;
+    right: 3.125rem;
+    top: -3.125rem;
+    z-index: 1;
+}
+
+.pericia_content{
+    display: flex;
+    gap: clamp(12px, 2vw, 24px);
+    padding: clamp(10px, 2vw, 20px) 0;
+    width: 100%;
+}
+
+.sidebar_pericia{
+    width: min(100%, 320px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.pericia_buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.btn_default{
+    color: #CFCFCF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid var(--cor-borda2);
+    background: linear-gradient(90deg, rgba(75, 68, 68, 0.20) 0%, rgba(43, 14, 7, 0.20) 100%);
+    padding: clamp(14px, 2.4vw, 22px);
+    margin: 0;
+    width: 100%;
+    font-size: clamp(1rem, 2.2vw, 1.45rem);
+
+    cursor: pointer;
+    transition: background 0.3s ease;
+    
+}
+.btn_default:active{
+    background: linear-gradient(90deg, rgba(100, 7, 7, 0.4) 0%, rgba(43, 14, 7, 0.40) 100%);
+}
+
+/* -- CARDS --*/
+.pericia_cards{
+    flex: 1;
+    position: relative;
+}
+
+.card {
+    width: 100%;
+    display: none;
+    min-height: 0;
+    background: linear-gradient(90deg, rgba(75, 68, 68, 0.20) 0%, rgba(43, 14, 7, 0.20) 100%);
+    border: 1px solid #805050;
+    border-radius: 18px;
+    padding: clamp(14px, 2.4vw, 26px);
+    /* margin: 20px; */
+    animation: aparecer 0.4s ease;
+}
+.card.active{
+    display: block;
+}
+
+.card_header{
+    display: flex;
+    align-items: center;
+    gap: clamp(14px, 2vw, 30px);
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.icon{
+    width: clamp(82px, 14vw, 120px);
+    height: clamp(72px, 11vw, 100px);
+    color:#9f9696;
+
+    border:1px solid #7c0505;
+    border-radius: 12px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.icon span{
+    font-size: clamp(2rem, 5vw, 3.75rem);
+    font-weight: 500;
+}
+.title_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.title_card h2 {
+    font-size: clamp(1.2rem, 2.6vw, 1.875rem);
+    color: #bdb3b3;
+    font-weight: 400;
+}
+
+.title_card p {
+    color: #CFCFCF;
+    font-size: clamp(1rem, 2.2vw, 1.35rem);
+    font-weight: 100;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.line{
+    width: min(180px, 100%);
+    height:2px;
+     background: linear-gradient(90deg, transparent, #ff0000, transparent);
+    margin-top:5px;
+}
+
+.info_card{
+    margin-left: clamp(12px, 2.5vw, 30px);
+    margin-top: clamp(16px, 2.5vw, 30px);
+}
+
+.info_card h4{
+    font-size: clamp(1rem, 2.2vw, 1.35rem);
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    color:#FF8E1D;
+    margin-bottom:5px;
+}
+
+.info_card li p{
+    font-size: clamp(0.95rem, 2.1vw, 1.35rem);
+    font-weight: 100;
+    letter-spacing: 1px;
+    color:#CFCFCF;
+    margin-bottom:15px;
+}
+
+.info_card ul{
+  padding-left:30px;
+}
+
+.info_card li{
+    margin-bottom:20px;
+    font-size: clamp(1rem, 2.3vw, 1.4rem);
+    color:#ff9900;
+}
+
+@media screen and (max-width: 1170px) {
+    .pericia_hero {
+        width: 100%;
+    }
+
+    .pericia_content{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .sidebar_pericia {
+        width: 100%;
+    }
+
+    .pericia_buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .pericia_buttons .btn_default {
+        flex: 1 1 180px;
+    }
+
+}
+@media screen and (max-width: 1540px) {
+    .fingerprint_2{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .line_right,
+    .line_left,
+    .fingerprint_1,
+    .fingerprint_2{
+        display:none;
+    }
+}
+
+/* --EFEITO BOTÕES--*/
+@keyframes aparecer{
+    from{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

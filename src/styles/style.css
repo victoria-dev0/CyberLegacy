@@ -1,0 +1,60 @@
+
+:root{
+    --cor-borda: linear-gradient(to right, #FFFFFF, #730606, #999999);
+    --cor-borda2: #805050;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Crimson Text', serif;
+}
+
+#inicio,
+#pericia,
+#dossie,
+#protecao{
+    scroll-margin-top: 100px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* ---RODAPÉ--- */
+.footer{
+    background: #0b0202;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 20px 45px 20px 45px;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        justify-content: center;
+        text-align: center;
+        padding: 16px 20px;
+    }
+    .footer img {
+       width: 150px;
+    }
+}
+  
