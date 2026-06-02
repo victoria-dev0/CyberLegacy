@@ -4,8 +4,6 @@ O CiberLegacy consiste em projeto que tem como principal objetivo informar a pes
 Nesse contexto, desenvolvemos um site para explicar de forma dinâmica e intuitiva a cronologia dos acontecimentos. Assim como, levar ao conhecimento do público informações essenciais para evitar invasões, ataques e possíveis vulnerabilidades ao utilizar redes sociais e quaisquer outras ferramentas digitais onde são inceridos dados pessoais.
 
 ## Protótipo
-
-## Telas
 - Início
 <img width="500" height="300" alt="INICIO" src="https://github.com/user-attachments/assets/083c06c7-89eb-413f-98c3-05b885f7a30b" />
 
