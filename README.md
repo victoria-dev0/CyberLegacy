@@ -1,6 +1,6 @@
 <img width="346" height="105" alt="Component 1" src="https://github.com/user-attachments/assets/5cfb1654-24b9-4981-a09c-7f720acc72eb" />
 
-O CiberLegacy consiste em projeto que tem como principal objetivo informar a pessoas leigas sobre os perígos e cuidados em ambientes digitais. Através do estudo de Perícia Computacional iremos abordar um estudo de caso que teve grande impacto na legislação brasileira, sendo o principal responsável pela criação da Lei 12.737/2012, popularmente conhecida como Lei Carolina Dieckmann. 
+O CyberLegacy consiste em projeto que tem como principal objetivo informar a pessoas leigas sobre os perígos e cuidados em ambientes digitais. Através do estudo de Perícia Computacional iremos abordar um estudo de caso que teve grande impacto na legislação brasileira, sendo o principal responsável pela criação da Lei 12.737/2012, popularmente conhecida como Lei Carolina Dieckmann. 
 Nesse contexto, desenvolvemos um site para explicar de forma dinâmica e intuitiva a cronologia dos acontecimentos. Assim como, levar ao conhecimento do público informações essenciais para evitar invasões, ataques e possíveis vulnerabilidades ao utilizar redes sociais e quaisquer outras ferramentas digitais onde são inceridos dados pessoais.
 
 ## Protótipo

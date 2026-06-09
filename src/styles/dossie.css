@@ -203,10 +203,22 @@
     font-size: clamp(0.95rem, 2vw, 1.5rem);
     font-weight: 300;
     line-height: 1.5;
-    letter-spacing: clamp(0px, 0.1vw, 2px);
+    letter-spacing: clamp(1px, 0.1vw, 2px);
     color: #CFCFCF;
     padding: 10px 0 0 0;
 } 
+.card_subtitle_description ul{
+    letter-spacing: clamp(1px, 0.1vw, 2px);
+
+}
+.card_subtitle_description span{
+    font-weight: bold;
+    color: #b33203;
+}
+.card_subtitle_description a{
+    font-weight: bold;
+    color: #b33203;
+}
 
 .card_list {
     font-size: clamp(0.95rem, 1.9vw, 1.4rem);
