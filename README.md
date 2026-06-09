@@ -1,22 +1,20 @@
-<img width="346" height="105" alt="Component 1" src="https://github.com/user-attachments/assets/5cfb1654-24b9-4981-a09c-7f720acc72eb" />
+<img width="200" height="150" alt="LOGO_COM_FUNDO" src="https://github.com/user-attachments/assets/f1779da9-ad8c-4e3a-9d54-8065e569faa1" />
 
 O CyberLegacy consiste em projeto que tem como principal objetivo informar a pessoas leigas sobre os perígos e cuidados em ambientes digitais. Através do estudo de Perícia Computacional iremos abordar um estudo de caso que teve grande impacto na legislação brasileira, sendo o principal responsável pela criação da Lei 12.737/2012, popularmente conhecida como Lei Carolina Dieckmann. 
 Nesse contexto, desenvolvemos um site para explicar de forma dinâmica e intuitiva a cronologia dos acontecimentos. Assim como, levar ao conhecimento do público informações essenciais para evitar invasões, ataques e possíveis vulnerabilidades ao utilizar redes sociais e quaisquer outras ferramentas digitais onde são inceridos dados pessoais.
 
 ## Protótipo
-
-## Telas
 - Início
-<img width="500" height="300" alt="INICIO" src="https://github.com/user-attachments/assets/083c06c7-89eb-413f-98c3-05b885f7a30b" />
+<img width="500" height="300" alt="INICIO" src="https://github.com/user-attachments/assets/8ee4eb2f-4482-460e-b144-99d52e63e49f" />
 
 - O que é perícia?
-<img width="500" height="600" alt="O que é perícia 2" src="https://github.com/user-attachments/assets/48f1dffa-b530-4e93-a4db-578d0ebc7786" />
+<img width="500" height="600" alt="O que é perícia 1" src="https://github.com/user-attachments/assets/9f0c08a9-8a1e-463c-870b-82a0fcbfefff" />
 
 - Dossiê
-<img width="500" height="1000" alt="DOSSIÊ" src="https://github.com/user-attachments/assets/2e4b1d16-b89a-4312-b053-8a16d1c4b7a5" />
+<img width="500" height="1000" alt="DOSSIÊ" src="https://github.com/user-attachments/assets/b211964f-5433-41d1-b968-55e65628cb9b" />
 
 - Como se proteger?
-<img width="500" height="600" alt="COMO SE PROTEGER" src="https://github.com/user-attachments/assets/dfe8ffb9-9f71-4a0b-aa38-49174d6b54ee" />
+<img width="500" height="600" alt="COMO SE PROTEGER" src="https://github.com/user-attachments/assets/6ca1d8b8-5f26-4712-acd2-5c8fb6456503" />
 
   
 ## Time de Desenvolvimento
@@ -28,7 +26,7 @@ Nesse contexto, desenvolvemos um site para explicar de forma dinâmica e intuiti
 - Victória Emanuella de Sena Lopes Silva
 
 ## Tecnologias
-O referido web site, CiberLegacy, fez uso das seguintes ferramentas de desenvolvimento. 
+O referido web site, CyberLegacy, fez uso das seguintes ferramentas de desenvolvimento. 
 
 - **JavaScript**
 - **HTML5**
